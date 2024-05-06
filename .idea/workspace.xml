@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dcfb23f8-1e08-4a2d-9fc4-ccd45d7e0974" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/VendingMachineDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/handler/OutOfStockException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/handler/SnackDispenseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/snack/Snack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/DispensingState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/IdleState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/ReturnMoneyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/StateOfVendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/state/WaitingForMoneyState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/vending/VendingMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/handler/SnackDispenseHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/snack/SnackTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/state/BaseStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/state/DispensingStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/state/IdleStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/state/ReturnMoneyStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/state/WaitingForMoneyStateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/vending/VendingMachineTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2g3zQoqNQvtSujsHZqTWapZZ6RD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.VendingMachineDriver.executor": "Run",
+    "JUnit.BaseStateTest.executor": "Run",
+    "JUnit.DispensingStateTest.canDispenseSnack.executor": "Run",
+    "JUnit.DispensingStateTest.executor": "Run",
+    "JUnit.IdleStateTest.canSelectSnack.executor": "Run",
+    "JUnit.IdleStateTest.executor": "Run",
+    "JUnit.ReturnMoneyStateTest.canReturnMoney.executor": "Run",
+    "JUnit.ReturnMoneyStateTest.executor": "Run",
+    "JUnit.SnackDispenseHandlerTest.handlerDispensesSnack.executor": "Run",
+    "JUnit.SnackDispenseHandlerTest.handlerPassesToNextHandler.executor": "Run",
+    "JUnit.SnackTest.executor": "Run",
+    "JUnit.VendingMachineTest.canGetHandler.executor": "Run",
+    "JUnit.VendingMachineTest.canSetState.executor": "Run",
+    "JUnit.VendingMachineTest.executor": "Run",
+    "JUnit.WaitingForMoneyStateTest.canInsertMoney.executor": "Run",
+    "JUnit.WaitingForMoneyStateTest.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.VendingMachineDriver">
+    <configuration name="VendingMachineDriver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="VendingMachineDriver" />
+      <module name="CS4800HW8" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS4800HW8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vending.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vending" />
+      <option name="MAIN_CLASS_NAME" value="vending.VendingMachineTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachineTest.canGetHandler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS4800HW8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vending.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vending" />
+      <option name="MAIN_CLASS_NAME" value="vending.VendingMachineTest" />
+      <option name="METHOD_NAME" value="canGetHandler" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendingMachineTest.canSetState" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS4800HW8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vending.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vending" />
+      <option name="MAIN_CLASS_NAME" value="vending.VendingMachineTest" />
+      <option name="METHOD_NAME" value="canSetState" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WaitingForMoneyStateTest.canInsertMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CS4800HW8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="state.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="state" />
+      <option name="MAIN_CLASS_NAME" value="state.WaitingForMoneyStateTest" />
+      <option name="METHOD_NAME" value="canInsertMoney" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.VendingMachineDriver" />
+        <item itemvalue="JUnit.VendingMachineTest" />
+        <item itemvalue="JUnit.VendingMachineTest.canSetState" />
+        <item itemvalue="JUnit.VendingMachineTest.canGetHandler" />
+        <item itemvalue="JUnit.WaitingForMoneyStateTest.canInsertMoney" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dcfb23f8-1e08-4a2d-9fc4-ccd45d7e0974" name="Changes" comment="" />
+      <created>1714941037165</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714941037165</updated>
+      <workItem from="1714941038262" duration="7728000" />
+      <workItem from="1715029505441" duration="1171000" />
+      <workItem from="1715030687236" duration="2533000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
